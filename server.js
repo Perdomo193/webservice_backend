@@ -4,7 +4,7 @@ const apiRouter = require('./src/api');
 const path = require('path');
 const env = process.env.NODE_ENV || 'development';
 
-app.use(express.static(path.join(__dirname, 'static')));
+app.use('/static',express.static(path.join(__dirname, 'static')));
 
 const bodyParser = require('body-parser');
 app.use(function(req, res, next) {

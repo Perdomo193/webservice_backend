@@ -1,14 +1,38 @@
 const db = require('../models')
+const net = require('net')
+const path = require('path')
+
+const client = new net.Socket();
 
 const save = async (req, res) => {
+	let data = {
+		name: req.file?.filename.split('.')[0],
+		extension: req.file?.mimetype.split('/')[1],
+		path: req.file?.destination,
+	};
+	await db.image.create(data);
+	data.action = req.params.filter;
+	let resp = await sendMessage(data);
+	resp.float = req.file?.destination;
+	return res.json(resp);
+}
 
-	await db.image.create({
-		name: req.body.title,
-		extension: 'jpg',
-		path: req.file.path,
-	});
+const sendMessage = function (data) {
+	return new Promise((resolve, reject) => {
+		client.connect(4242,'127.0.0.1', function () {
+			data.path = path.join(__dirname,'../../',data.path);
+			data.user = '123';
+			client.write(JSON.stringify(data));
+		});
 	
-	return re.status(202).send('successfully!');
+		client.on('data', function(data) {
+			resolve(JSON.parse(data));
+			client.destroy();
+		});
+		client.on('error', function(error){
+			reject(error);
+		})
+	});
 };
 
 const del = async (req, res) => {	

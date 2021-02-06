@@ -1,7 +1,7 @@
 const db = require('../models')
 
 const all = async (req, res) => {
-	return res.status(404).send('not found');
+	return res.status(202).send('not found');
 }
 const square = async (req, res) => {
 	return res.status(404).send('not found');
