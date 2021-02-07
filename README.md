@@ -7,7 +7,7 @@
 #### Instalar
 `npm install`
 
-#### Iniciar servidor en localhost:8000
+#### Iniciar servidor en localhost:3000
 `npm run build`
 
 `npm run start`
@@ -18,4 +18,7 @@ Se utilizo el framwork de `Node JS` y `Express` en el desarrollo del Back-end. S
 
 ### Base de datos
 
+Se tiene una base de datos relacional, con la 
+
+![(https://github.com/Perdomo193/images/blob/master/page_three.png)]
 
