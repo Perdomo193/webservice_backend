@@ -20,5 +20,5 @@ Se utilizo el framwork de `Node JS` y `Express` en el desarrollo del Back-end. S
 
 Se tiene una base de datos relacional, con la 
 
-![(https://github.com/Perdomo193/images/blob/master/page_three.png)]
+![](https://github.com/Perdomo193/images/blob/master/page_three.png)
 
