@@ -13,3 +13,5 @@
 `npm run start`
 
 ## Herramientas
+
+Se utilizo el framwork de `Node JS` y `Express`.  
