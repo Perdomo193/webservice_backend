@@ -1,6 +1,6 @@
 ![](https://github.com/Perdomo193/webservice_front/blob/main/static/img/logo_vo.png)
 
-# Vision Online Prueba Tecnica - Pablo Alejandro Perdomo
+<h2 align="center">Vision Online Prueba Tecnica - Pablo Alejandro Perdomo</h2>
 
 ## Dependencias
 
