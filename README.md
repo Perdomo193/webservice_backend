@@ -18,7 +18,9 @@ Se utilizo el framwork de `Node JS` y `Express` en el desarrollo del Back-end. S
 
 ### Base de datos
 
-Se tiene una base de datos relacional, con la 
+Se tiene una base de datos relacional, como se muestra en la Figura 1.
+
+Figura 1
 
 ![](https://github.com/Perdomo193/images/blob/master/page_three.png)
 
