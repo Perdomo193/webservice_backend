@@ -16,6 +16,8 @@
 
 Se utilizo el framwork de `Node JS` y `Express` en el desarrollo del Back-end. Se implemento el gestor de bases de datos relacional `SQLite`.
 
+<p align="center"><a href="#"><img width="650px" height="auto" src="https://github.com/Perdomo193/images/blob/master/page_seven.png" alt="build status"></img></a></p>
+
 ### Base de datos
 
 Se tiene una base de datos relacional, como se muestra en la Figura 1. Se gestionan las coordenadas de las regiones de interes y su tipo.
