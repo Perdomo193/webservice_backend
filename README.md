@@ -22,5 +22,5 @@ Se tiene una base de datos relacional, como se muestra en la Figura 1. Se gestio
 
 <p align="center">Figura 1</p>
 
-<p align="center"><a href="#"><img width="250px" height="auto" src="https://github.com/Perdomo193/images/blob/master/page_three.png" alt="build status"></img></a></p>
+<p align="center"><a href="#"><img width="450px" height="auto" src="https://github.com/Perdomo193/images/blob/master/page_three.png" alt="build status"></img></a></p>
 
