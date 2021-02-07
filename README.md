@@ -14,4 +14,8 @@
 
 ## Herramientas
 
-Se utilizo el framwork de `Node JS` y `Express`.  
+Se utilizo el framwork de `Node JS` y `Express` en el desarrollo del Back-end. Se implemento el gestor de bases de datos relacional `SQLite`.
+
+### Base de datos
+
+
