@@ -20,7 +20,7 @@ Se utilizo el framwork de `Node JS` y `Express` en el desarrollo del Back-end. S
 
 Se tiene una base de datos relacional, como se muestra en la Figura 1. Se gestionan las coordenadas de las regiones de interes y su tipo.
 
-Figura 1
+<p align="center">Figura 1</p>
 
 ![](https://github.com/Perdomo193/images/blob/master/page_three.png)
 
