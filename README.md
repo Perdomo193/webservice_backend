@@ -20,7 +20,7 @@ Se utilizo el framwork de `Node JS` y `Express` en el desarrollo del Back-end. S
 
 ## Base de datos
 
-Se tiene una base de datos relacional, como se muestra en la Figura 1. Se gestionan las coordenadas para las diferentes regiones de interes y su tipo. Cada coordenada presenta un valor en el X y Y. El tipo hace alusión si es una region rectangular, circular, triangular o heptagonal.
+Se tiene una base de datos relacional, como se muestra en la Figura 1. Se gestionan las coordenadas para las diferentes regiones de interes y su tipo. Cada coordenada `C_1`, `C_2`, `C_3` y `C_4` presenta un valor en el X y Y. El tipo hace alusión si es una region rectangular, circular, triangular o heptagonal, y se identifica con la variable `shape_id`.
 
 <h3 align="center">Figura 1</h3>
 
