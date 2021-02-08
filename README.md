@@ -22,6 +22,10 @@ Se utilizo el framwork de `Node JS` y `Express` en el desarrollo del Back-end. S
 
 Se tiene una base de datos relacional, como se muestra en la Figura 1. Se gestionan las coordenadas para las diferentes regiones de interes y su tipo. Las coordenadas y centros de masa se identifican como `C_1`, `C_2`, `C_3` y `C_4`. El tipo hace alusión si es una region rectangular, circular, triangular o heptagonal, y se identifica con la variable `shape_id`.
 
+Para cargar los datos iniciales se ejecuta el siguiente comando:
+
+`npm run seeders`
+
 <h3 align="center">Figura 1</h3>
 
 <p align="center"><a href="#"><img width="650px" height="auto" src="https://github.com/Perdomo193/images/blob/master/page_three.png" alt="build status"></img></a></p>
