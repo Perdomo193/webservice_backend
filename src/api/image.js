@@ -13,8 +13,9 @@ var storage = multer.diskStorage({
 
 var uppload = multer({ storage: storage });
 
-router.post('/save/:filter', uppload.single('image'), controllersImage.save)
-router.post('/delete', controllersImage.del)
-router.get('/get', controllersImage.get)
+router.post('/save/:filter',uppload.single('image'),controllersImage.save)
+router.post('/movie',uppload.single('image'),controllersImage.saveImage)
+router.post('/delete',controllersImage.del)
+router.get('/get',controllersImage.get)
 
 module.exports = router;
