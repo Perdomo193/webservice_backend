@@ -14,7 +14,7 @@
 
 ## Herramientas
 
-Se utilizo el framwork de `Node JS` y `Express` en el desarrollo del Back-end. Se implemento el gestor de bases de datos relacional `SQLite`.
+Se utilizo el framwork de `Node JS` y `Express` en el desarrollo del Back-end. Se implemento el gestor de bases de datos relacional `SQLite`, y en el desarrollo del servidor se utilizo `Express`.
 
 <p align="center"><a href="#"><img width="450px" height="auto" src="https://github.com/Perdomo193/images/blob/master/page_seven.png" alt="build status"></img></a></p>
 
