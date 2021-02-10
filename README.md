@@ -34,9 +34,9 @@ Si se desea migrar la base de datos, utilice el siguiente comando.
 
 `npm run migrate`
 
-## Links Front-end y Cliente TCP
+## Links Front-end y Servicio TCP
 
-Debe ingresar al `cliente TCP` en el siguiente link:
+Debe ingresar al `servicio TCP` en el siguiente link:
 
 https://github.com/Perdomo193/webservice_tcp
 
